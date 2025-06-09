@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inscripción Lakers</title>
+    <link rel="stylesheet" href="d4.css">
+    <header>
+        <h1 class="titulo">LOS ANGELES LAKERS</h1>
+        <nav id="menu-principal">
+            <ul>
+                <li><a href="index.html" class="active">Inicio</a></li>
+                <li><a href="p1.html">Equipo</a></li>
+                <li><a href="p2.html">Calendario</a></li>
+                <li><a href="p3.html">Historia</a></li>
+                <li><a href="p4.html">Jugadores</a></li>
+                <li><a href="p5.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+</head>
+<body>
+    <div class="ins">
+    <div class="inscripcion">
+    <h1 class="ins">Inscripción al Equipo</h1>
+    <h2 clas="ins">Te animo a que entres a nuestro club y participar en varios partidos necesitamos jugadores buenos como tu...!</h2>
+      <br>
+    <form>
+  <label>Nombre completo:</label>
+  <input type="text" required><br>
+
+  <label>Edad:</label>
+  <input type="number" min="16" max="40" required><br>
+
+  <label>Posición:</label>
+  <select required>
+    <option value="">Selecciona...</option>
+    <option>Base</option>
+    <option>Escolta</option>
+    <option>Alero</option>
+    <option>Ala-Pívot</option>
+    <option>Pívot</option>
+  </select>
+  <br>
+  
+  <label>Teléfono:</label>
+  <input type="tel" required>
+<br>
+  <button type="submit">Enviar</button>
+    </form>
+    </div>
+     <div class="js">
+       <h2>Ingresa el número de un jugador</h2>
+  <form onsubmit="return mostrarJugador()">
+    <label for="playerNumber">Número del jugador:</label>
+    <input type="number" id="playerNumber" required>
+    <button type="submit">Enviar</button>
+  </form>
+  <script src="v1.js"></script>
+     </div>
+    </div>
+    <div class="links-nba">
+  <h3>Visita también:</h3>
+  <ul>
+    <li><a href="https://www.nba.com" target="_blank">NBA Oficial</a></li>
+    <li><a href="https://www.lakers.com" target="_blank">Los Angeles Lakers</a></li>
+    <li><a href="https://www.instagram.com/lakers" target="_blank">Lakers en Instagram</a></li>
+    <li><a href="https://twitter.com/Lakers" target="_blank">Lakers en X (Twitter)</a></li>
+  </ul>
+</div>
+    <footer>
+    <p>&copy; 2025 Los Angeles Lakers. BY YAN GARCIA
+    </p>
+</footer>
+    
+</body>
+</html>
